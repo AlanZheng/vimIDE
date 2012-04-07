@@ -6,6 +6,10 @@ syntax on
 "开启行号显示
 set number
 
+" 代码自动补全
+filetype plugin indent on
+set completeopt=longest,menu
+
 " Grep设置
 """"""""""""""""""""""""""""""""""""""""
 nnoremap <silent> <F3> :Grep<CR>
@@ -14,6 +18,12 @@ nnoremap <silent> <F3> :Grep<CR>
 " cscope设置
 """"""""""""""""""""""""""""""""""""""""
 set cscopequickfix=s-,c-,d-,i-,t-,e-
+""""""""""""""""""""""""""""""""""""""""
+
+" Taglist设置
+""""""""""""""""""""""""""""""""""""""""
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
 """"""""""""""""""""""""""""""""""""""""
 
 " Open and close all the three plugins on the same time
