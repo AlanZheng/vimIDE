@@ -24,6 +24,7 @@ set cscopequickfix=s-,c-,d-,i-,t-,e-
 """"""""""""""""""""""""""""""""""""""""
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
+let Tlist_WinWidth=20
 """"""""""""""""""""""""""""""""""""""""
 
 " Open and close all the three plugins on the same time
@@ -36,4 +37,4 @@ nmap s :TrinityToggleSourceExplorer<CR>
 nmap t :TrinityToggleTagList<CR>
 
 " Open and close the NERD_tree.vim separately
-nmap n  :TrinityToggleNERDTree<CR> 
+nmap f  :TrinityToggleNERDTree<CR> 
