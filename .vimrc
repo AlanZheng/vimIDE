@@ -27,6 +27,11 @@ let Tlist_Exit_OnlyWindow=1
 let Tlist_WinWidth=20
 """"""""""""""""""""""""""""""""""""""""
 
+" NERD_tree设置
+""""""""""""""""""""""""""""""""""""""""
+let NERDTreeShowHidden=1
+""""""""""""""""""""""""""""""""""""""""
+
 " Open and close all the three plugins on the same time
 nmap a :TrinityToggleAll<CR>
 
