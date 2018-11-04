@@ -1,7 +1,10 @@
-set ts=4
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
 set encoding=utf-8
+set ts=4
 syntax enable
 syntax on
+"set list
 
 "开启行号显示
 set number
